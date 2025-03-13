@@ -126,9 +126,9 @@ client.once('ready', () => {
     // This creates a very simple poll in discord at 9 am everyday
     cron.schedule('0 9 * * 1-5', () => {
         // Replache "channel-ID" with your desired channel-ID
-        const channelId = '1154024865746137161'; //lunch-channel-ID
-        const question = 'Where do you want to go for lunch?';
-        const options = ['Mr. Wen', 'Mensa', 'Something else'];
+        const channelId = 'channel-ID'; //lunch-channel-ID
+        const question = 'Question?';
+        const options = ['Option1', 'Option2', 'Option3'];
 
         let pollText = `**${question}**\n`;
         const emojis = ['🇦', '🇧', '🇨'];
