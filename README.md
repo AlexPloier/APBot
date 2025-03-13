@@ -1,1 +1,1 @@
-This is a very simple discord bot that I created for our work-discord server. :) 
+This is a very simple and lightweight discord bot. Feel free to play around and make additional suggestions. :) 
